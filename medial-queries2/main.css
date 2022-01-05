@@ -1,3 +1,58 @@
+
+* {
+  border: 1px solid black;
+}
+
 body {
   background: papayawhip;
+}
+
+.container {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.third-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.a { 
+  background-color: green;
+  min-height: 10vh;
+  min-width: 100%;
+}
+
+.b {
+  background-color: pink;
+  min-width: 100%;
+  min-height: 40vh;
+}
+
+.c {
+  background-color: rgb(225, 0, 255);
+  min-height: 10vh;
+  min-width: 33%;
+  
+}
+
+.d {
+  background-color: rgb(219, 35, 35);
+  min-height: 10vh;
+  min-width: 33%;
+  
+}
+
+.e {
+  background-color: rgb(39, 189, 26);
+  min-height: 10vh;
+  min-width: 33.6%;
+  
+}
+
+.f {
+  background-color: purple;
+  min-width: 100%;
+  min-height: 10vh;
 }
